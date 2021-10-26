@@ -1,0 +1,23 @@
+body { 
+    font-family: sans-serif;
+    color:#333;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+#container { 
+    margin-top: 200px;
+}
+h1 { 
+    font-size:5em;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 12px; /* Sadly outline does not round! therefore...*/
+    background-color: grey;
+}
+
+input[type=button]  {
+    background-color: grey;
+}
